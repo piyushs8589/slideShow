@@ -1,0 +1,25 @@
+body {
+    background-color: #000a1f;
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: transform ease-in-out 0.5s; /* Transition only the transform property */
+}
+
+.container img:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+}
